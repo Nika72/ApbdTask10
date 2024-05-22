@@ -108,7 +108,7 @@ namespace Tutorial6.Controllers
             }
             catch (Exception ex)
             {
-                return StatusCode(500, $"Internal server error: {ex.Message}");
+                return StatusCode(500, $"Internal server eror: {ex.Message}");
             }
         }
 
